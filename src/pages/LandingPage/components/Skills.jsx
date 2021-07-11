@@ -5,7 +5,6 @@ function Skills() {
     <Box boxShadow="xl" m="2" p="2" rounded="md" bg="white">
       <Flex direction="column" justify="center">
         <Text p={1}>Skills</Text>
-
         <Flex direction="column">
           <Box>
             <UnorderedList fontSize={12} pl={4}>
