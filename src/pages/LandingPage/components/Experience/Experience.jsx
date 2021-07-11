@@ -3,7 +3,7 @@ import { Box, Heading } from "@chakra-ui/react";
 import ExperienceCard from "./ExperienceCard";
 function Experience() {
   return (
-    <Box boxShadow="2xl" p="6" rounded="md" bg="white" m="15">
+    <Box boxShadow="2xl" p="2" rounded="md" bg="white" m="2">
       <Heading fontSize="lg">Experiences</Heading>
       <Box h="2" />
       <ExperienceCard
