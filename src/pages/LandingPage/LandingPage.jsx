@@ -3,6 +3,7 @@ import { Flex, Box } from "@chakra-ui/react";
 import Profile from "./components/Profile";
 import Experience from "./components/Experience/Experience";
 import Hobbies from "./components/Hobbies";
+import Skills from "./components/Skills";
 function LandingPage() {
   return (
     <Flex color="black">
@@ -12,7 +13,7 @@ function LandingPage() {
         <Hobbies />
       </Box>
       <Box flex="2" bg="orange" height="100vh">
-        2
+        <Skills />
       </Box>
     </Flex>
   );
