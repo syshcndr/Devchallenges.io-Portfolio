@@ -5,8 +5,8 @@ import Experience from "./components/Experience";
 import Hobbies from "./components/Hobbies";
 function LandingPage() {
   return (
-    <Flex>
-      <Box flex="1" bg="white" height="100vh">
+    <Flex color="black">
+      <Box flex="1" bg="#22283C" height="100%">
         <Profile />
         <Experience />
         <Hobbies />
