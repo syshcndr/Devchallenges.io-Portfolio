@@ -12,19 +12,23 @@ function ExperienceCard({ image, start, end, position, description }) {
       >
         <GridItem rowSpan={2} colSpan={1}>
           <Container centerContent>
-            <Image className="experienceImage" src={image} />
+            <Image w="84px" h="84px" src={image} />
           </Container>
         </GridItem>
         <GridItem colSpan={2}>
           <Box>
-            <Text className="experienceTime">
+            <Text fontSize="xs" color="#828282">
               {start} - {end}
             </Text>
-            <Text className="experiencePosition">{position}</Text>
+            <Text fontSize="sm" fontWeight="bold">
+              {position}
+            </Text>
           </Box>
         </GridItem>
         <GridItem colSpan={2} rowSpan={2}>
-          <Text className="experienceDesc">{description}</Text>
+          <Text fontSize="xs" color="#828282">
+            {description}
+          </Text>
         </GridItem>
       </Grid>
     </Box>

@@ -11,29 +11,3 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
-.card {
-  height: fit-content;
-  background: #ffffff;
-  border-radius: 12px;
-  filter: drop-shadow(5px 5px 4px grey);
-  padding: 10px 0px 10px 0px;
-}
-
-.experienceImage {
-  width: 84px;
-  height: 84px;
-}
-
-.experienceTime {
-  font-size: 10px;
-  color: #828282;
-}
-.experiencePosition {
-  font-size: 14px;
-  font-weight: bold;
-}
-.experienceDesc {
-  font-size: 13px;
-  color: #828282;
-}
