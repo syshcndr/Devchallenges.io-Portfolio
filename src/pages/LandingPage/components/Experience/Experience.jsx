@@ -1,6 +1,6 @@
 import React from "react";
-import { Box, Container, Heading, Text } from "@chakra-ui/react";
-import ExperienceCard from "../../../components/ExperienceCard";
+import { Box, Heading } from "@chakra-ui/react";
+import ExperienceCard from "./ExperienceCard";
 function Experience() {
   return (
     <Box boxShadow="2xl" p="6" rounded="md" bg="white" m="15">

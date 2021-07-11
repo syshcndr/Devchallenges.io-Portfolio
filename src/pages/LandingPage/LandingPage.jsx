@@ -1,7 +1,7 @@
 import React from "react";
 import { Flex, Box } from "@chakra-ui/react";
 import Profile from "./components/Profile";
-import Experience from "./components/Experience";
+import Experience from "./components/Experience/Experience";
 import Hobbies from "./components/Hobbies";
 function LandingPage() {
   return (
