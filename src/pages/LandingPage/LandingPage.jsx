@@ -12,8 +12,13 @@ function LandingPage() {
         <Experience />
         <Hobbies />
       </Box>
+<<<<<<< Updated upstream
       <Box flex="2">
         <Skills />
+=======
+      <Box flex="3" bg="orange" height="100vh">
+        2
+>>>>>>> Stashed changes
       </Box>
     </Flex>
   );
